@@ -2,9 +2,11 @@ body{
     margin: 0;
     font-family: 'Poppins', 'sans-serif';
 }
+section{
+    height: 500px;
+}
 .first-section{
     background-image: url(/images/top-banner.png);
-    height: 500px;
     background-repeat: no-repeat;
     padding-bottom: 80px;
 }
@@ -34,11 +36,31 @@ a{
 
 .second-section{
     background-image: url(/images/dream-bg.png);
-    height: 500px;
     background-repeat: no-repeat;
     background-position: right;
 }
 
 .orange-highlight{
     color: orange;
+}
+.single-experience{
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px grey;
+    height: 60%;
+}
+.experience-section{
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(cyan,blue);
+    border-image-slice: 1;
 }
