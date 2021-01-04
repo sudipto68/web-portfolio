@@ -6,7 +6,7 @@ section{
     height: 500px;
 }
 .first-section{
-    background-image: url(/images/top-banner.png);
+    background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
     padding-bottom: 80px;
 }
@@ -35,7 +35,7 @@ a{
 }
 
 .second-section{
-    background-image: url(/images/dream-bg.png);
+    background-image: url(./images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
